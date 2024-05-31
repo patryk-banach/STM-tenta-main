@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Factory</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--TROR JAG, FIXA SEN-->
+    <style display="flex" flex-direction: column align-items: center justify-content: center;
+    ></style>
+<header>
+    <nav>
+        
+        <ul>
+            <a href="/index.html"><img class="logo" src="logo.svg"></a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/categories.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="product-page">
+
+<div class="prod-image-left">
+    <img src="/prod-img/premiumshirt.jpg" >
+</div>
+<div class="prod-info-right">
+   <div> <div class="pricename"> <h2 class="prod-name">Premium shirt</h2> <h2>1500SEK</h2></div>
+    <hr></div>
+<p>Size</p>
+
+<form>
+    <label class="size-label">
+      <input type="radio" name="size" value="XS" id="sizeXS">
+      <span>XS</span>
+    </label>
+    <label class="size-label">
+      <input type="radio" name="size" value="S" id="sizeS">
+      <span>S</span>
+    </label>
+    <label class="size-label">
+      <input type="radio" name="size" value="M" id="sizeM">
+      <span>M</span>
+    </label>
+    <label class="size-label">
+      <input type="radio" name="size" value="L" id="sizeL">
+      <span>L</span>
+    </label>
+    <label class="size-label">
+      <input type="radio" name="size" value="XL" id="sizeXL">
+      <span>XL</span>
+    </label>
+
+    
+  </form>
+  <button class="addtobag" type="submit">ADD TO BAG</button>
+<h3>Free shipping on orders over 1500SEK</h3>
+<hr>
+<p class="prod-description">
+    Jättefin skjorta som är svart och ser ut som en t-shirt. Jag undrar verkligen om jag kan få plats med en ul inom ett p element eller om jag low key måste skapa detta separat. Däremot tror jag det vore snyggt om det var separat och hade marginal så det är nog ganska bra! 
+</p>
+<ul><li>Jättefin skjorta 100% bomull</li> <li>Tvättas i 40ç grader</li> </ul>
+</div>
+</section>
+<hr class="section-divide">
+<section class="featured">
+    <h2>Featured Products</h2>
+    <div class="products">
+        <div class="product">
+           <div class="productimgcontainer"><img src="/prod-img/blackdress.jpg" alt="Black Dress"></div>
+            <p>Black Dress</p>
+            <span>€499</span>
+            <div class="carticon">🛒</div>
+        </div>
+        <div class="product">
+            <div class="productimgcontainer"> <img src="/prod-img/emeraldsuit.jpg" alt="Emerald Suit"></div>
+            <p>Emerald Suit</p>
+            <span>€799</span>
+            <div class="carticon">🛒</div>
+        </div>
+        <div class="product">
+            <div class="productimgcontainer">  <img src="/prod-img/navysuit.jpg" alt="Navy Suit"></div>
+            <p>Navy Suit</p>
+            <span>€799</span>
+            <div class="carticon">🛒</div>
+        </div>
+        <div class="product">
+            <div class="productimgcontainer">  <img src="/prod-img/flowerheels.jpg" alt="Flower Heels"></div>
+            <p>Flower Heels</p>
+            <span>€799</span>
+            <div class="carticon">🛒</div>
+        </div>
+    </div>
+</section>
+<footer>
+    <hr>
+    <p>© 2024 Fashion Factory. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Factory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <a href="/index.html"><img class="logo" src="logo.svg" alt="Fashion Factory Logo"></a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/categories.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" id="cart-icon"> <img src="cart.svg" alt=" "> </a></li>
+        </ul>
+    </nav>
+</header>
+<div id="cart-container" class="cart-container hidden">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div class="cart-total">
+        <p>Total: <span id="cart-total-price">€0.00</span></p>
+    </div>
+    <a href="/checkout.html">
+        <button id="checkout-button">Checkout</button>
+    </a>
+</div>
+<section class="explore-banner">
+    <h1>Explore Our Collection</h1>
+    <p>Explore our quality clothing for men and women</p>
+</section>
+<section class="categories">
+    <div class="category">
+        <h2>Women</h2>
+        <ul>
+            <li><a href="#" id="dresses">Dresses</a></li>
+            <li><a href="#" id="shoes">Shoes</a></li>
+        </ul>
+    </div>
+    <div class="category">
+        <h2>Men</h2>
+        <ul>
+            <li><a href="#" id="suits">Suits</a></li>
+            <li><a href="#" id="shirts">Shirts</a></li>
+        </ul>
+    </div>
+</section>
+<section class="products">
+    <div class="product-list" id="product-list">
+        <!-- Produkter visas här förhoppningsvis -->
+    </div>
+</section>
+<footer>
+    <hr>
+    <p>© 2024 Fashion Factory. All Rights Reserved.</p>
+</footer>
+<script src="categories.js"></script>
+</body>
+</html>

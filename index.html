@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Factory</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <a href="/index.html"><img class="logo" src="logo.svg"></a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/categories.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" id="cart-icon"> <img src="cart.svg" alt=" "> </a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Cart -->
+<div id="cart-container" class="cart-container hidden">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div class="cart-total">
+        <p>Total: <span id="cart-total-price">€0.00</span></p>
+    </div>
+    <button id="checkout-button"><a class="checkoutbuttona" href="/checkout.html">Checkout</a></button>
+</div>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>UNLEASH YOUR <br>STYLE</h1>
+        <p>Explore our exclusive collection for men & women</p>
+    </div>
+    <div class="hero-img"><img src="heroimg.jpg"> </div>
+</section>
+<section class="menwomen">
+<div class="mens-left">
+    <button class="shop">MENS</button>
+</div>
+<div class="womens-right">
+    <button class="shop">WOMENS</button>
+</div>
+</section>
+<section class="featured">
+    <h2>Featured Products</h2>
+    <div class="products">
+        <!-- Featured hamnar här hoppas jag -->
+    </div>
+</section>
+<footer>
+    <hr>
+    <p>© 2024 Fashion Factory. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

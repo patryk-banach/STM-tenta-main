@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Factory</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <a href="/index.html"><img class="logo" src="logo.svg"></a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/categories.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="summary">
+    <h1>Summary</h1>
+    <div class="prod-container">
+        <!-- Håller tummarna att produkter visas här -->
+    </div>
+    <hr>
+    <div class="totalc">
+        <p class="total">Total: €0.00</p>
+    </div>
+</section>
+
+<hr class="divider">
+<section class="shipping">
+<h1>SHIPPING INFORMATION</h1>
+    <form class="shipping-info"> 
+        <span><label for="full-name">Full Name</label>
+        <input placeholder="Enter your full name" id="full-name" type="text"></span>
+        <span><label for="address">Address</label>
+        <input placeholder="Enter your address" id="address" type="text"></span>
+        <span><label for="city">City</label>
+        <input placeholder="Enter your city" type="text" id="city"></span>
+        <span><label for="zip">Zip Code</label>
+        <input placeholder="Enter your zip code" type="text" id="zip"></span>
+        <button type="submit">Continue to Payment</button>
+    </form>
+</section>
+<hr class="divider">
+<section class="shipping">
+    <h1>PAYMENT INFORMATION</h1>
+        <form class="shipping-info"> 
+            <span><label for="cardnumber">Card Number</label>
+            <input placeholder="Enter your card number" id="cardnumber" type="text"></span>
+            <span><label for="expdate">Expiration Date</label>
+            <input placeholder="MM/YYYY" id="expdate" type="text"></span>
+            <span><label for="CVV">CVV</label>
+            <input placeholder="Enter CVV" type="text" id="CVV"></span>
+            <button type="submit">Place Order</button>
+        </form>
+</section>
+<footer>
+    <hr>
+    <p>© 2023 Fashion Factory. All Rights Reserved.</p>
+</footer>
+<script src="checkout.js"></script>
+</body>
+</html>
