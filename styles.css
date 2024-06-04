@@ -2,6 +2,96 @@
     font-family: Aesthetic-Regular;
     src: url('Aesthetic-Regular.woff');
 }
+@media (max-width:768px){
+    .logo{
+        width: 150px;
+    }
+    .hero {
+        height: 600px;
+        flex-direction: column;
+    }
+    .hero-text {
+        width: 90%;
+    }
+    .hero-img{
+        width: auto;
+        height: 100%;
+    }
+    .hero h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .explore-banner {
+        height: 100px;
+    }
+    .explore-banner h1 {
+        font-size: 32px;
+    }
+    .explore-banner p {
+        font-size: 16px;
+    }
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    .category {
+        margin: 20px 0;
+    }
+    .category h2 {
+        font-size: 1.5em;
+    }
+    .category ul li a {
+        font-size: 1em;
+    }
+    .product {
+        width: 45%; 
+    }
+    .product-page {
+        flex-direction: column; 
+    }
+    .prod-image-left {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px; 
+    }
+    .prod-info-right {
+        width: 100%;
+    }
+    .shipping h1 {
+        font-size: 32px;
+    }
+    .shipping-info {
+        width: 90%; 
+    }
+    .shipping-info span {
+        width: 100%; 
+    }
+    .shipping-info input {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+    .shipping-info button {
+        width: 100%;
+        height: 50px; 
+    }
+    .featured h2 {
+        font-size: 32px; 
+        padding: 20px; 
+    }
+    .products {
+        flex-wrap: wrap;
+    }
+    .product {
+        width: 45%; 
+        margin: 10px;
+    }
+    footer p {
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+    }
+   
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
